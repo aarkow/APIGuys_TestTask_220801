@@ -6,7 +6,7 @@ import requests, json
 
 #This is a site that generates webhooks: https://webhook.site
 #Alex's unique Webhook URL:
-webhook_url = 'https://webhook.site/dc3e2823-344f-4702-8cba-8d28191f3762'
+webhook_url = 'http://127.0.0.1:5000/webhook'
 
 #JSON formatted data:
 data = {'name': 'jotforms spreadsheed',
